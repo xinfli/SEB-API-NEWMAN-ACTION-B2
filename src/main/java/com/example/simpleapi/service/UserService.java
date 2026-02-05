@@ -13,8 +13,8 @@ public class UserService {
 
     // seed a couple users
     public UserService() {
-        save(new User(null, "Alice", "alice@example.com"));
-        save(new User(null, "Bob", "bob@example.com"));
+        save(new User(null, "Alice", "alice@gmail.com"));
+        save(new User(null, "Bob", "bob@gmail.com"));
     }
 
     public List<User> findAll() {
